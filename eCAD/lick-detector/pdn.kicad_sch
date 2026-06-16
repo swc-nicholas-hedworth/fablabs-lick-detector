@@ -2073,7 +2073,7 @@
 		)
 		(uuid "49abea20-6d6f-4253-8540-93a011c7a480")
 	)
-	(text "Vout = 1.2V * (R5 + R4)/R4\nR4 > 50k\n2.4V"
+	(text "Vout = 1.2V * (R5 + R4)/R4\nR4 > 50k"
 		(exclude_from_sim no)
 		(at 190.5 68.58 0)
 		(effects
@@ -2097,7 +2097,7 @@
 		)
 		(uuid "882b7cd8-cd2a-45ee-8aff-86ebc6a571a8")
 	)
-	(text "Vout = -1.22V * (R2 + R3)/R3\nR3 > 50k\n-2.44V"
+	(text "Vout = -1.22V * (R2 + R3)/R3\nR3 > 50k\n"
 		(exclude_from_sim no)
 		(at 167.64 115.57 0)
 		(effects

@@ -144,7 +144,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "!fablabs-kicad-library:C_0603_10n_50V_X7R"
+		(symbol "!fablabs-kicad-library:C_0603_1n_50V_X7R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -167,7 +167,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "10n"
+			(property "Value" "1n"
 				(at 3.81 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -199,7 +199,7 @@
 					)
 				)
 			)
-			(property "Description" "Capacitor, {Type}, {Package}, {Capacitance}, {Voltage Rating}, {Dielectric}, {±% Range}"
+			(property "Description" "Capacitor, MLCC, 0603, 1nF, 50V, X7R, ±10%"
 				(at 0 -10.922 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -221,7 +221,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -232,7 +232,7 @@
 					)
 				)
 			)
-			(property "MFR.Part #" "0603B103K500NT"
+			(property "MFR.Part #" "CL10B102KB8NNNC"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -243,7 +243,7 @@
 					)
 				)
 			)
-			(property "JLCPCB Part #" "C57112"
+			(property "JLCPCB Part #" "C1588"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -254,7 +254,7 @@
 					)
 				)
 			)
-			(property "JLCPCB Category" "Capacitors"
+			(property "JLCPCB Category" "Capacitors / Multilayer Ceramic Capacitors MLCC - SMD/SMT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -298,7 +298,7 @@
 					)
 				)
 			)
-			(symbol "C_0603_10n_50V_X7R_1_1"
+			(symbol "C_0603_1n_50V_X7R_1_1"
 				(polyline
 					(pts
 						(xy 2.794 -2.032) (xy 2.794 2.032)
@@ -468,6 +468,230 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "!fablabs-kicad-library:J_PinHeader_01x02_2.54_V"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "J_PinHeader_01x02_2.54_V"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "!fablabs-kicad-library:J_PinHeader_01x02_2.54_V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Connector, Pin Header, 1x2 (2 position), 2.54mm pitch, Vertical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "XFCN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFR.Part #" "PZ254V-11-02P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Part #" "C492401"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part Version" "0.0.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB Category" "Connectors / Pin Headers"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "JLCPCB PCBA Type" "Extended"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "J_PinHeader_01x02_2.54_V_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1175,7 +1399,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "!fablabs-kicad-library:R_0603_220R"
+		(symbol "!fablabs-kicad-library:R_0603_10k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1198,7 +1422,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Value" "220R"
+			(property "Value" "10k"
 				(at 3.81 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1230,7 +1454,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor, 0603, 220Ω}, ±1%, ±100ppm/℃, Thick Film Chip"
+			(property "Description" "Resistor, 0603, 10kΩ}, ±10%, ±100ppm/℃, Thick Film Chip"
 				(at 0 -2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1263,7 +1487,7 @@
 					)
 				)
 			)
-			(property "MFR.Part #" "0603WAF2200T5E"
+			(property "MFR.Part #" "0603WAF1002T5E"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1274,7 +1498,7 @@
 					)
 				)
 			)
-			(property "JLCPCB Part #" "C22962"
+			(property "JLCPCB Part #" "C25804"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1329,7 +1553,7 @@
 					)
 				)
 			)
-			(symbol "R_0603_220R_0_1"
+			(symbol "R_0603_10k_0_1"
 				(rectangle
 					(start 1.27 1.016)
 					(end 6.35 -1.016)
@@ -1342,7 +1566,7 @@
 					)
 				)
 			)
-			(symbol "R_0603_220R_1_1"
+			(symbol "R_0603_10k_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 1.27)
@@ -1514,8 +1738,8 @@
 		(uuid "cf45738c-b39d-4160-ae28-fff0bb504fbc")
 	)
 	(rectangle
-		(start 119.38 104.14)
-		(end 134.62 129.54)
+		(start 132.715 90.17)
+		(end 144.78 115.57)
 		(stroke
 			(width 0)
 			(type default)
@@ -1667,7 +1891,7 @@
 	)
 	(text "\nWet Tongue:\n~1KOhm"
 		(exclude_from_sim no)
-		(at 137.16 111.76 0)
+		(at 147.32 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1688,11 +1912,12 @@
 	)
 	(text "Mouse Model"
 		(exclude_from_sim no)
-		(at 111.76 116.84 0)
+		(at 144.78 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify right)
 		)
 		(uuid "921ba131-bac9-43ec-bcfb-9c2184fd332f")
 	)
@@ -1706,7 +1931,7 @@
 		)
 		(uuid "994e05f0-9586-4e88-950b-1fca7cee14a9")
 	)
-	(text "-200mV"
+	(text "-60mV"
 		(exclude_from_sim no)
 		(at 73.66 68.58 0)
 		(effects
@@ -1778,16 +2003,16 @@
 		)
 		(uuid "d490190e-91bf-4d50-bfc9-412246fc6d05")
 	)
-	(text "<- LICK HERE"
+	(text "LICK HERE ->"
 		(exclude_from_sim no)
-		(at 134.62 96.52 0)
+		(at 116.84 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d635ea9d-576d-48bb-8295-b044b79dfafa")
 	)
@@ -1824,7 +2049,7 @@
 	)
 	(text "Mouse body:\n< 100pF"
 		(exclude_from_sim no)
-		(at 137.16 121.92 0)
+		(at 147.32 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1833,7 +2058,17 @@
 		)
 		(uuid "ef4fe8c0-6a47-4fa1-a368-b0125194f7cd")
 	)
-	(text "200mV"
+	(text "Circuit acts as a low pass filter\nCf approx 15.9kHz"
+		(exclude_from_sim no)
+		(at 129.54 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f34974eb-3ace-438c-bd74-5ee35f6310d9")
+	)
+	(text "60mV"
 		(exclude_from_sim no)
 		(at 73.66 48.26 0)
 		(effects
@@ -1851,14 +2086,10 @@
 		(uuid "539d7dfa-cccb-4849-bb1e-e04c51a865c7")
 	)
 	(junction
-		(at 127 83.82)
+		(at 119.38 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d228d75f-80ad-4017-b549-26aabaf18dc9")
-	)
-	(no_connect
-		(at 127 96.52)
-		(uuid "a173ae38-0569-4fc7-9c5b-19e9cf89157b")
+		(uuid "a8fe52b3-a088-46c1-af5f-ba3c27a5d67e")
 	)
 	(polyline
 		(pts
@@ -1872,21 +2103,21 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 124.46) (xy 127 127)
+			(xy 134.62 114.3) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
-		(uuid "03655c8b-036c-480e-a599-d7b13060f484")
+		(uuid "055fe62c-ff82-4025-90d1-69ae1f2f8e88")
 	)
 	(polyline
 		(pts
-			(xy 127 113.03) (xy 125.73 113.03)
+			(xy 142.24 102.87) (xy 140.97 102.87)
 		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(uuid "058ea582-1bb5-4064-905d-571eae4108f7")
 	)
@@ -1922,7 +2153,7 @@
 	)
 	(polyline
 		(pts
-			(xy 107.95 80.01) (xy 109.22 81.28)
+			(xy 105.41 80.01) (xy 106.68 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1939,16 +2170,6 @@
 			(type solid)
 		)
 		(uuid "1345931f-463c-4550-8892-2e4e5d93b19d")
-	)
-	(polyline
-		(pts
-			(xy 127 127) (xy 129.54 124.46)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "149c7891-97d6-4a34-bb68-3a739aac9d54")
 	)
 	(polyline
 		(pts
@@ -2002,11 +2223,21 @@
 	)
 	(polyline
 		(pts
-			(xy 128.27 106.68) (xy 128.27 113.03)
+			(xy 134.62 91.44) (xy 134.62 101.6)
 		)
 		(stroke
 			(width 0)
 			(type dash)
+		)
+		(uuid "2ca2b509-23f8-4e28-96c9-efe95f046724")
+	)
+	(polyline
+		(pts
+			(xy 143.51 96.52) (xy 143.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type solid)
 		)
 		(uuid "2d1b497f-15e3-404f-a307-f94fcb5cb2f2")
 	)
@@ -2019,26 +2250,6 @@
 			(type solid)
 		)
 		(uuid "2f91a580-7df4-4645-941c-fc2668d3f497")
-	)
-	(wire
-		(pts
-			(xy 127 83.82) (xy 127 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30b90981-eea5-434d-9228-73fd8ebd9bbf")
-	)
-	(polyline
-		(pts
-			(xy 127 106.68) (xy 127 96.52)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "31ddb269-b36d-48bc-acdf-2bca013694c5")
 	)
 	(polyline
 		(pts
@@ -2059,6 +2270,16 @@
 			(type dash)
 		)
 		(uuid "338a3f29-e88c-47a7-99ac-bd66e0c7e624")
+	)
+	(polyline
+		(pts
+			(xy 142.24 91.44) (xy 134.62 91.44)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "33f8ed2e-550e-4cb7-93a1-ebcab9c28602")
 	)
 	(polyline
 		(pts
@@ -2109,6 +2330,26 @@
 			(type default)
 		)
 		(uuid "4ba8ff60-f0f9-49bd-aae3-4a47f3c5e2c7")
+	)
+	(polyline
+		(pts
+			(xy 142.24 114.3) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "4d5e965d-d1d9-4b15-a374-6d56f723ee36")
+	)
+	(wire
+		(pts
+			(xy 119.38 83.82) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57870b0d-4d4f-415b-99f5-35480cb2fcd1")
 	)
 	(wire
 		(pts
@@ -2172,6 +2413,16 @@
 	)
 	(polyline
 		(pts
+			(xy 142.24 114.3) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "761549a4-42d9-4f45-8e3f-de1c72aaf908")
+	)
+	(polyline
+		(pts
 			(xy 190.5 81.28) (xy 191.77 80.01)
 		)
 		(stroke
@@ -2192,7 +2443,17 @@
 	)
 	(polyline
 		(pts
-			(xy 104.14 68.58) (xy 109.22 73.66)
+			(xy 129.54 101.6) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7c450b81-4241-410b-a923-f8dd309821e7")
+	)
+	(polyline
+		(pts
+			(xy 101.6 68.58) (xy 106.68 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2209,6 +2470,16 @@
 			(type default)
 		)
 		(uuid "7ee33084-3a25-4703-838e-c3672079b320")
+	)
+	(wire
+		(pts
+			(xy 119.38 93.98) (xy 119.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1d3933-0401-48ff-a00f-4173ac3f0039")
 	)
 	(polyline
 		(pts
@@ -2282,16 +2553,6 @@
 	)
 	(polyline
 		(pts
-			(xy 127 118.11) (xy 127 124.46)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "89fb4c42-a62c-4ab4-8aaa-866f243b98c5")
-	)
-	(polyline
-		(pts
 			(xy 238.76 43.18) (xy 240.03 41.91)
 		)
 		(stroke
@@ -2302,23 +2563,23 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 127 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94fc5ef7-289f-4063-8eb8-8554df8ef182")
-	)
-	(wire
-		(pts
-			(xy 101.6 83.82) (xy 114.3 83.82)
+			(xy 101.6 83.82) (xy 109.22 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99b7fa94-a1fd-4b71-85ed-23bfbfa7165a")
+	)
+	(wire
+		(pts
+			(xy 116.84 83.82) (xy 119.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b9647e-55d8-4122-9c4d-a01a82e944f7")
 	)
 	(polyline
 		(pts
@@ -2332,13 +2593,23 @@
 	)
 	(polyline
 		(pts
-			(xy 128.27 113.03) (xy 127 113.03)
+			(xy 143.51 102.87) (xy 142.24 102.87)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9da3ffe9-11eb-439a-ba1b-ccd1819d069b")
+	)
+	(polyline
+		(pts
+			(xy 129.54 104.14) (xy 134.62 104.14)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
-		(uuid "9da3ffe9-11eb-439a-ba1b-ccd1819d069b")
+		(uuid "a023ec2e-ac1c-4dd7-8e0a-8138cc10380b")
 	)
 	(polyline
 		(pts
@@ -2352,17 +2623,17 @@
 	)
 	(polyline
 		(pts
-			(xy 125.73 113.03) (xy 125.73 106.68)
+			(xy 140.97 102.87) (xy 140.97 96.52)
 		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(uuid "a5d957ad-56bd-46d9-b48a-4ef44d304e0a")
 	)
 	(polyline
 		(pts
-			(xy 127 116.84) (xy 127 113.03)
+			(xy 142.24 107.95) (xy 142.24 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2663,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.49 80.01) (xy 109.22 81.28)
+			(xy 107.95 80.01) (xy 106.68 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2462,11 +2733,11 @@
 	)
 	(polyline
 		(pts
-			(xy 128.905 118.11) (xy 125.095 118.11)
+			(xy 144.145 109.22) (xy 140.335 109.22)
 		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(uuid "c7a177e4-947d-4399-b1a4-89b3562e7dd3")
 	)
@@ -2482,7 +2753,7 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 73.66) (xy 109.22 81.28)
+			(xy 106.68 73.66) (xy 106.68 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2502,11 +2773,11 @@
 	)
 	(polyline
 		(pts
-			(xy 128.905 116.84) (xy 125.095 116.84)
+			(xy 144.145 107.95) (xy 140.335 107.95)
 		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(uuid "ce9e29c6-1c44-4cbe-9128-712fdeab49a3")
 	)
@@ -2552,16 +2823,6 @@
 	)
 	(polyline
 		(pts
-			(xy 124.46 124.46) (xy 129.54 124.46)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "e1570902-4742-49d3-a0d1-2b20b5586e08")
-	)
-	(polyline
-		(pts
 			(xy 238.76 43.18) (xy 240.03 44.45)
 		)
 		(stroke
@@ -2572,13 +2833,23 @@
 	)
 	(polyline
 		(pts
-			(xy 109.22 81.28) (xy 110.49 80.01)
+			(xy 106.68 81.28) (xy 107.95 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7a53da6-20dd-4433-8556-b00f6b6e8526")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 124.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b1bc90-390f-46da-b294-f80f1672bea1")
 	)
 	(wire
 		(pts
@@ -2589,6 +2860,16 @@
 			(type default)
 		)
 		(uuid "ed6e6988-26b4-42e6-8fda-e34b200fb944")
+	)
+	(polyline
+		(pts
+			(xy 142.24 96.52) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f0671da3-b231-4ebb-93b9-8b0b791da099")
 	)
 	(polyline
 		(pts
@@ -2620,16 +2901,6 @@
 		)
 		(uuid "f647477a-cb21-4b65-8451-f4edf69c78be")
 	)
-	(wire
-		(pts
-			(xy 127 83.82) (xy 152.4 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f925de07-ba1b-4fae-a8a6-36c2acf59862")
-	)
 	(polyline
 		(pts
 			(xy 76.2 45.72) (xy 76.2 71.12)
@@ -2642,169 +2913,33 @@
 	)
 	(polyline
 		(pts
-			(xy 125.73 106.68) (xy 128.27 106.68)
+			(xy 140.97 96.52) (xy 143.51 96.52)
 		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type solid)
 		)
 		(uuid "fd67f620-1ecb-493a-9c11-fc23a101e37b")
 	)
+	(wire
+		(pts
+			(xy 119.38 83.82) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd938f04-11c8-42f6-a142-b4733cce658c")
+	)
 	(label "spout"
-		(at 127 96.52 0)
+		(at 119.38 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left top)
+			(justify left bottom)
 		)
 		(uuid "2ff8a51e-c6a9-48b4-ab34-3cc037835931")
-	)
-	(symbol
-		(lib_id "!fablabs-kicad-library:C_0603_10n_50V_X7R")
-		(at 127 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "08a7c0e4-d8ff-4377-b576-663b964e53a4")
-		(property "Reference" "C12"
-			(at 127 91.44 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "10n"
-			(at 127 92.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "!fablabs-kicad-library:C_0603_1608M"
-			(at 130.81 95.5548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Capacitor, {Type}, {Package}, {Capacitance}, {Voltage Rating}, {Dielectric}, {±% Range}"
-			(at 137.922 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Version" "0.0.0"
-			(at 127 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
-			(at 127 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MFR.Part #" "0603B103K500NT"
-			(at 127 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C57112"
-			(at 127 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Category" "Capacitors"
-			(at 127 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB PCBA Type" "Basic"
-			(at 127 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1fd47426-414d-4b43-a3a9-ba25cc23dd0f")
-		)
-		(pin "2"
-			(uuid "1459a99c-3170-45ba-80b0-8c9dbacd126f")
-		)
-		(instances
-			(project "lick-detector"
-				(path "/815e9fa1-5cc8-45e1-9d34-77c5548ab2a8"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "!fablabs-kicad-library:J_PinHeader_01x03_2.54_V")
@@ -2953,6 +3088,85 @@
 			(project "lick-detector"
 				(path "/815e9fa1-5cc8-45e1-9d34-77c5548ab2a8"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "!fablabs-kicad-library:GND")
+		(at 124.46 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5125d55f-14c2-4c8f-b0bc-5deda2d004a6")
+		(property "Reference" "#PWR050"
+			(at 124.46 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ground - Signal"
+			(at 124.46 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cc35415-43b4-4290-b337-de7b2b9d251d")
+		)
+		(instances
+			(project "lick-detector"
+				(path "/815e9fa1-5cc8-45e1-9d34-77c5548ab2a8"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3185,8 +3399,8 @@
 		)
 	)
 	(symbol
-		(lib_id "!fablabs-kicad-library:R_0603_100k")
-		(at 114.3 83.82 0)
+		(lib_id "!fablabs-kicad-library:C_0603_1n_50V_X7R")
+		(at 119.38 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3194,20 +3408,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "77781556-b7e1-498f-bb36-d9dc52a5f981")
-		(property "Reference" "R1"
-			(at 118.11 82.55 0)
+		(uuid "71fc4fac-fc04-45c9-8fc7-920c46c825f9")
+		(property "Reference" "C25"
+			(at 119.38 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify right top)
 			)
 		)
-		(property "Value" "100k"
-			(at 118.11 83.82 0)
+		(property "Value" "1n"
+			(at 119.38 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3216,8 +3430,8 @@
 				)
 			)
 		)
-		(property "Footprint" "!fablabs-kicad-library:R_0603_1608M"
-			(at 112.522 83.82 90)
+		(property "Footprint" "!fablabs-kicad-library:C_0603_1608M"
+			(at 123.19 93.0148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3228,7 +3442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 83.82 0)
+			(at 119.38 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3238,8 +3452,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, 0603, 100kΩ, ±1%, ±100ppm/℃, Thick Film Chip"
-			(at 114.3 86.614 0)
+		(property "Description" "Capacitor, MLCC, 0603, 1nF, 50V, X7R, ±10%"
+			(at 130.302 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3250,7 +3464,7 @@
 			)
 		)
 		(property "Part Version" "0.0.0"
-			(at 114.3 83.82 0)
+			(at 119.38 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,8 +3474,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 114.3 83.82 0)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,8 +3485,8 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "0603WAF1003T5E"
-			(at 114.3 83.82 0)
+		(property "MFR.Part #" "CL10B102KB8NNNC"
+			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3282,8 +3496,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C25803"
-			(at 114.3 83.82 0)
+		(property "JLCPCB Part #" "C1588"
+			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3293,8 +3507,8 @@
 				)
 			)
 		)
-		(property "JLCPCB Category" "Resistors/Chip Resistor - Surface Mount"
-			(at 114.3 83.82 0)
+		(property "JLCPCB Category" "Capacitors / Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 119.38 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3305,7 +3519,153 @@
 			)
 		)
 		(property "JLCPCB PCBA Type" "Basic"
-			(at 114.3 83.82 0)
+			(at 119.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "35ea26ee-bdd9-4826-9106-387de39d293a")
+		)
+		(pin "1"
+			(uuid "4a85d117-06d1-4c2f-aee9-043544708706")
+		)
+		(instances
+			(project "lick-detector"
+				(path "/815e9fa1-5cc8-45e1-9d34-77c5548ab2a8"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "!fablabs-kicad-library:R_0603_100k")
+		(at 109.22 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77781556-b7e1-498f-bb36-d9dc52a5f981")
+		(property "Reference" "R1"
+			(at 113.03 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100k"
+			(at 113.03 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "!fablabs-kicad-library:R_0603_1608M"
+			(at 107.442 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, 0603, 100kΩ, ±1%, ±100ppm/℃, Thick Film Chip"
+			(at 109.22 86.614 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Version" "0.0.0"
+			(at 109.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 109.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1003T5E"
+			(at 109.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25803"
+			(at 109.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Category" "Resistors/Chip Resistor - Surface Mount"
+			(at 109.22 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB PCBA Type" "Basic"
+			(at 109.22 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3325,6 +3685,152 @@
 			(project "lick-detector"
 				(path "/815e9fa1-5cc8-45e1-9d34-77c5548ab2a8"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "!fablabs-kicad-library:R_0603_10k")
+		(at 243.84 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b1614ca-3d81-49ce-acab-9cf99997086d")
+		(property "Reference" "R22"
+			(at 245.11 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 243.84 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "!fablabs-kicad-library:R_0603_1608M"
+			(at 243.84 95.758 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, 0603, 10kΩ}, ±10%, ±100ppm/℃, Thick Film Chip"
+			(at 246.634 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Version" "0.0.0"
+			(at 243.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 243.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" "0603WAF1002T5E"
+			(at 243.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C25804"
+			(at 243.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Category" "Resistors/Chip Resistor - Surface Mount"
+			(at 243.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB PCBA Type" "Basic"
+			(at 243.84 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c234855-b4b5-4f6f-adaa-8683342362f6")
+		)
+		(pin "2"
+			(uuid "1a9cdf02-b4cb-4b8f-9b3d-483b218213a2")
+		)
+		(instances
+			(project "lick-detector"
+				(path "/815e9fa1-5cc8-45e1-9d34-77c5548ab2a8"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3409,8 +3915,8 @@
 		)
 	)
 	(symbol
-		(lib_id "!fablabs-kicad-library:R_0603_220R")
-		(at 243.84 93.98 90)
+		(lib_id "!fablabs-kicad-library:J_PinHeader_01x02_2.54_V")
+		(at 129.54 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3418,30 +3924,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c1e1a94e-a464-4db3-9b35-f61d0e09ed97")
-		(property "Reference" "R22"
-			(at 245.11 90.17 90)
+		(uuid "d353f553-c2e1-4184-93c1-ed512a3884cb")
+		(property "Reference" "J11"
+			(at 129.54 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify bottom)
 			)
 		)
-		(property "Value" "220R"
-			(at 243.84 90.17 0)
+		(property "Value" "J_PinHeader_01x02_2.54_V"
+			(at 132.08 104.1399 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "!fablabs-kicad-library:R_0603_1608M"
-			(at 243.84 95.758 90)
+		(property "Footprint" "!fablabs-kicad-library:J_PinHeader_01x02_2.54_V"
+			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,7 +3960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 90.17 0)
+			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,8 +3970,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, 0603, 220Ω}, ±1%, ±100ppm/℃, Thick Film Chip"
-			(at 246.634 93.98 0)
+		(property "Description" "Connector, Pin Header, 1x2 (2 position), 2.54mm pitch, Vertical"
+			(at 129.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XFCN"
+			(at 129.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFR.Part #" "PZ254V-11-02P"
+			(at 129.54 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C492401"
+			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3474,7 +4015,7 @@
 			)
 		)
 		(property "Part Version" "0.0.0"
-			(at 243.84 93.98 0)
+			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,8 +4025,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 243.84 93.98 0)
+		(property "JLCPCB Category" "Connectors / Pin Headers"
+			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3495,8 +4036,8 @@
 				)
 			)
 		)
-		(property "MFR.Part #" "0603WAF2200T5E"
-			(at 243.84 93.98 0)
+		(property "JLCPCB PCBA Type" "Extended"
+			(at 129.54 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,50 +4046,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "JLCPCB Part #" "C22962"
-			(at 243.84 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Category" "Resistors/Chip Resistor - Surface Mount"
-			(at 243.84 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB PCBA Type" "Basic"
-			(at 243.84 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "866d07bb-0b71-4369-8632-89f7f6962d57")
 		)
 		(pin "1"
-			(uuid "5efb6710-d5f0-4b06-a9c6-3c3e9b00c4d9")
+			(uuid "98ce9896-3082-4698-9a83-d1e0eab4146b")
+		)
+		(pin "2"
+			(uuid "b5aaaab8-370c-40e8-ac9f-e045f9c4d233")
 		)
 		(instances
 			(project "lick-detector"
 				(path "/815e9fa1-5cc8-45e1-9d34-77c5548ab2a8"
-					(reference "R22")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3649,7 +4157,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "377e8981-2ca9-41bf-baa8-910decf7c125")
-		(property "Sheetname" "schmitt-trigger"
+		(property "Sheetname" "Schmitt Trigger"
 			(at 203.2 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3715,7 +4223,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "3dc6ea83-b758-4f3e-8c71-13bddd4156a5")
-		(property "Sheetname" "sine-wave-generator"
+		(property "Sheetname" "Signal Generator"
 			(at 76.2 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3771,7 +4279,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "4412b5ab-2e0a-4874-baab-e76b05c0f9f6")
-		(property "Sheetname" "power-distribution-network"
+		(property "Sheetname" "Power Distribution"
 			(at 25.4 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3817,7 +4325,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "ad9d35e4-ecde-48ff-b91e-5b6f29df5ab7")
-		(property "Sheetname" "RMS-to-DC"
+		(property "Sheetname" "Envelope Follower"
 			(at 152.4 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)

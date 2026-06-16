@@ -1,0 +1,41 @@
+# KiCad project ignore rules
+# Keep source files under version control; ignore generated and user-specific files
+
+# KiCad project files and temporary/cache files
+fp-info-cache
+*.kicad_prl
+*.kicad_pro
+*.kicad_ses
+*.kicad_wks
+*.kicad_sym
+*.kicad_mod
+
+# Backup and temporary files
+*~
+*.bak
+*.tmp
+*.log
+*.diff
+*.cache
+*.backup
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# KiCad cache and generated data
+fp-info-cache/
+cache/
+
+# Local user library table files
+sym-lib-table
+fp-lib-table
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Additional ignored folders
+.history/
+lick-detector-backups/
+jlcpcb/

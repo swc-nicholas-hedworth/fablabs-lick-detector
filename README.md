@@ -1,63 +1,126 @@
 # Fablabs Lick Detector
 
-Inspired by the Allen Institutes: https://github.com/AllenNeuralDynamics/harp.device.lickety-split
+Inspired by the Allen Institute's: https://github.com/AllenNeuralDynamics/harp.device.lickety-split
 
-## Introction
-Goals:
+## 1. Introduction
+
+Capacitive lick detection offer advantages in the accuracy and speed of lick/touch detection. The challenge comes when using it with ephys devices such as the neuropixel which can pickup the input signal from the touch detector as noise. Our lick detector was inspired by the Allen Institutes lick detector which is shown to have low impact on ephys recordings.
+
+The goals for this device were as follows:
 - Reliable lick detection
-- Low noise
-- Simple adjustments and debugging
-- Easy to source components
-- Fast to manufacture
-- Cheap to purchase
+- Low noise on ephys readings
+- Simple to adjust and debug
+- Easy to manufacture
+- Easy to adapt into your own design
 
-The board was designed to be soldered directly to the lick port.
+## 2. Setup
+### Power Supply Requirements
+- Min. Voltage = 3V
+- Max. Voltage = 5.5V
+- Max Current Consumption = 70mA (regardless of input voltage).
 
-Power and output TTL signal from 3-pin 2.54mm pitch pin headers.
+The output TTL depends on the input VCC voltage. For example:
+- If VCC = 3.3V, output TTL amplitude = 3.3V
+- If VCC = 5V, output TTL amplitude = 5V
 
-compact footprint: 25mm x 45mm
+### Ground Connection
+Although not strictly necessary, it is encouraged for the mouse to have a reference to the board's ground potential. Basically the mouse needs to touch a conductor which is connected to the board's 
 
-Cost: <£10 per board
+#### Metalic Floor
+if the floor the mouse stands on is conductive, you may connect this floor to the ground potential.
 
-## How to Use
-Solder lick spout directly to board for solid electrical connection
+#### Ephys
+If the mouse has an implanted ephys device, it is posssible to connect the board's ground to that of the implant's ground.
 
-Input power (3.3V to 5V).
+### Spout Connection
+Using crocodile clip
 
-Adjust oscillator with potentiomete: put the gain to its highest, slowly reduce the gain to achieve lower THD. If the gain is too low, no sine will output.
+## 3. Calibration
 
-Adjust schmitt trigger with potentiometer (the no-lick voltage on 'amp' should be about 2.7V)
+This section outlines how to set the positions of the potentiometers RV1 and RV2 without any specialised equipment.
 
-## Testing and Debugging
-Is VCC on?
+If any steps do not work, see the debugging guide.
 
-Measure Voltage 'V+' and 'V-', are they withing +/- 1%?
+### Step 0: Theory
+RV1 is used to set the oscillators gain. clockwise increases the gain. The goal is to have the gain as low as possible to produce a low amplitude and clean signal to the spout so as to not intefere with ephys measurements. At maximum gain the signal will be distorted, introducing harmonics to the signal which is undesireable. At a certain "minimum" gain the oscillator will stop working. The goal is to have the oscillator just turn on, this gives us the lowest circuit noise.
 
-Use an oscilliscope to analyse the oscillator output at 'osc'
+RV2 is used to set the output gain. clockwise increases the gain. The goal is to have gain as low as possible to achieve extremely fast response to lick events. The output signal goes through a schmitt trigger, ensuring the gain sets the output at just the point the schmitt trigger activates ensures the quickest response times.
 
-Analyse the output on the buffer
+### Step 1: Initial conditions
+- Turn RV1 all the way clockwise. (max oscillator gain)
+- Turn RV2 all the way anticlockwise (min output gain)
+
+This condition ensures that the oscillator is working (although distorted) and that the LED is on.
+
+### Step 2: Detection
+- Turn RV2 clockwise until the LED turns off.
+
+You should see the LED turn on when you touch the "SPOUT" pin, and turn back off when you stop touching
+
+### Step 3: Refine
+**The following steps reduce the amplitude of the oscillator, thereby giving lower noise to ephys measurements.**
+
+- Turn RV1 anticlockwise until the LED turns on.
+- Turn RV2 clockwise until the LED turns back off.
+- Test that touching the "SPOUT" pin still turns the LED on.
+
+### Step 4: Repeat
+
+- Repeat Step 3 until the LED seizes to turn off or if the LED starts behaving weirdly.
+- When you reach the point that the LED starts behaving weirdly, revert RV1 and RV2 back to the previous state when the LED was still operating successfully.
 
 
-## Test Results
-### Oscillator Performance
+## 4. Test Results
 
-Frequency
+This section is intended to show the typical performance of the lick detector at each test point, showing how individual parts of the circuit should perform under normal conditions.
 
-Amplitude
+A Keysight DSOX1204A was used to capture the waveform and calculate the FFT. A custom BNC to pin header cable was created to feed signals from the board to the oscilloscope.
 
-THD
+### [VCC] Input Voltage
+The input voltage is used to power the dual supply converter on the board and the output stage op-amp (see amp and TTL test points).
 
-Temperature Variation
+### [V+] Positive Voltage Rail
+This supply rail is generated by the dual supply converter.
 
+### [V-] Negative Voltage Rail
+This supply rail is generated by the dual supply converter.
 
-### RMS-to-DC Performance
-
-Response Time
-
-Output Ripple
-
-### Schmitt Trigger
+### [osc] Oscillator
 
 
-## Recommended Operating Conditions
+### [out] Signal to Spout
 
+
+### [buf] Buffered Signal from Spout
+
+
+### [hwr] Half Wave Rectifier
+
+
+### [pfwr] Precision Full Wave Rectifier
+
+
+### [lpf] Low-Pass Filter
+
+
+### [amp] Amplifier 
+
+
+### [TTL] Final Output TTL
+
+### 5. EMI Performance
+
+This section focuses on how the lick detectors near field noise looks like.
+
+#### E-Field
+
+#### H-Field
+
+### 6. Impact on Ephys Recordings
+
+This section evaluates the impact of noise on Ephys Recordings.
+
+A mouse will lick from a spout. We will collect the following readings:
+1. **Control**: 
+2. **Grounded to Ephys**:
+3. **Grounded to Ephys and Conductive Floor**:

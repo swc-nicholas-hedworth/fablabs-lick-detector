@@ -632,14 +632,62 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB PCBA Type",
+          "name": "JLCPCB PCBA Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR.Part #",
+          "name": "MFR.Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Version",
+          "name": "Part Version",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Category",
+          "name": "JLCPCB Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${QUANTITY}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -690,29 +738,29 @@
         "uuid": "815e9fa1-5cc8-45e1-9d34-77c5548ab2a8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R6,C25",
     "variants": []
   },
   "sheets": [
     [
       "815e9fa1-5cc8-45e1-9d34-77c5548ab2a8",
-      "diode-stabalised"
+      "lick-detector"
     ],
     [
       "3dc6ea83-b758-4f3e-8c71-13bddd4156a5",
-      "sine-wave-generator"
+      "Signal Generator"
     ],
     [
       "ad9d35e4-ecde-48ff-b91e-5b6f29df5ab7",
-      "RMS-to-DC"
+      "Envelope Follower"
     ],
     [
       "4412b5ab-2e0a-4874-baab-e76b05c0f9f6",
-      "power-distribution-network"
+      "Power Distribution"
     ],
     [
       "377e8981-2ca9-41bf-baa8-910decf7c125",
-      "schmitt-trigger"
+      "Schmitt Trigger"
     ]
   ],
   "text_variables": {},

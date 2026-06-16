@@ -4400,7 +4400,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e89c71e4-6ae0-4fdd-ae6c-dd47bc604b1f")
-		(property "Reference" "RV3"
+		(property "Reference" "RV2"
 			(at 153.67 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4532,7 +4532,7 @@
 		(instances
 			(project "lick-detector"
 				(path "/815e9fa1-5cc8-45e1-9d34-77c5548ab2a8/377e8981-2ca9-41bf-baa8-910decf7c125"
-					(reference "RV3")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
